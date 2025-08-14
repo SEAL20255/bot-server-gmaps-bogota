@@ -3,11 +3,5 @@ services:
     name: bot-gmaps-bogota
     env: node
     plan: free
-    branch: main
     buildCommand: "npm install"
-    startCommand: "node app.js"
-    envVars:
-      - key: GOOGLE_API_KEY
-        value: "AIzaSyAQybAfL2P_hn7ggfheV5_ljEWgWbnmEz8"
-      - key: PORT
-        value: "3000"
+    startCommand: "npm start"
